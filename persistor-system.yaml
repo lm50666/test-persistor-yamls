@@ -8,7 +8,7 @@ metadata:
       - product
       - data-platform
   links:
-    - url: https://syntio.atlassian.net/wiki/spaces/SJ/pages/1960738817/User+Documentation
+    - url: https://syntio.atlassian.net/wiki/spaces/AP/pages/1991147527/Persistor
       title: Persistor documentation
       icon: docs
 spec:
