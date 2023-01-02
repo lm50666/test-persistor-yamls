@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: indexer-api
+  description: The indexer REST API
+  tags:
+  - swagger
+  - openapi
+  links:
+    - url: https://syntio.atlassian.net/wiki/spaces/SP/pages/1595015187/Indexer+API
+      title: Documentation
+      icon: docs
+spec:
+  type: openapi
+  lifecycle: production
+  system: persistor-system
+  owner: Persistor
+  definition:
+    $text: https://github.com/syntio/SYNTB-persistor-indexer-api/blob/develop/swagger.yaml
+  apiProvidedBy:
+  - component:indexer
+  apiConsumedBy:
+  - component:resubmitter
