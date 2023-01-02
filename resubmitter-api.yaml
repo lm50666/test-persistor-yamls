@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: resubmitter-api
+  description: The resubmitter REST API
+  tags:
+  - swagger
+  - openapi
+  links:
+    - url: https://syntio.atlassian.net/wiki/spaces/SP/pages/1683652662/Resubmitter+API
+      title: Documentation
+      icon: docs
+spec:
+  type: openapi
+  lifecycle: production
+  system: persistor-system
+  owner: Persistor
+  definition:
+    $text: https://github.com/syntio/SYNTB-persistor-resubmitter-api/blob/develop/swagger.yaml
+  apiProvidedBy:
+  - component:resubmitter
+  apiConsumedBy:
+  - component:resubmitter
