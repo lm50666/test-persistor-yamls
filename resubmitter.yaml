@@ -17,4 +17,4 @@ spec:
   dependsOn:
   - component:indexer-api
   providesApi: 
-  - resubmitter-api
+  - api:resubmitter-api
