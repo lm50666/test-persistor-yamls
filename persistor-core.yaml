@@ -18,5 +18,3 @@ spec:
   owner: Persistor
   dependsOn:
   - component:indexer
-  providesApi: 
-  - api:testapi
