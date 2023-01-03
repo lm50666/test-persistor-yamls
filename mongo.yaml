@@ -17,3 +17,4 @@ spec:
   owner: Persistor
   dependsOn:
   - component:indexer
+  - component:resubmitter
