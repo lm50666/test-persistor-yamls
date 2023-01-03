@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: dataphos
+  description: Dataphos enables building enterprise-class operational and analytic, real-time data platform based on industry best practices 
+  links:
+    - url: https://syntio.atlassian.net/wiki/spaces/SAY/pages/2085912763/Syntio+Products+Intro#6-Phos%2C-Real-time-Data-platform
+      title: Dataphos intro page
+spec:
+  owner: syntio-team
