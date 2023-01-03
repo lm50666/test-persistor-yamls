@@ -14,7 +14,7 @@ spec:
   lifecycle: production
   system: persistor-system
   owner: Persistor
-  dependsOn:
-  - component:indexer-api
-  providesApi: 
+  consumesApi: 
+  - api:indexer-api
+  providesApi:
   - api:resubmitter-api
