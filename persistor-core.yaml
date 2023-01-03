@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: persistor-core
-  description: Core component of component
+  description: Core component of persistor
   tags:
     - golang
   annotations: 
