@@ -18,3 +18,4 @@ spec:
   - api:indexer-api
   dependencyOf:
   - component:persistor-core
+  - resource:mongo
