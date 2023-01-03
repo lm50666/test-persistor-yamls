@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: mongo
+  description: Mongo is a database containing messages metadata stored by indexer component
+  tags:
+    - database
+    - mongo
+  links:
+    - url: https://www.mongodb.com/
+      title: Mongo webpage
+      icon: docs
+spec:
+  type: database
+  lifecycle: production
+  system: persistor-system
+  owner: Persistor
+  dependencyOf:
+  - component:registry
