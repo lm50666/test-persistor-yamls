@@ -14,8 +14,6 @@ spec:
   lifecycle: production
   system: persistor-system
   owner: Persistor
-  providesApi: 
-  - api:indexer-api
-  dependencyOf:
+  dependsOn:
   - component:persistor-core
   - resource:mongo
