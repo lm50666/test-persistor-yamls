@@ -18,5 +18,6 @@ spec:
   - api:indexer-api
   providesApi:
   - api:resubmitter-api
-  dependencyOf:
+  dependsOn:
   - resource:mongo
+  - component:indexer-api-component
