@@ -1,1 +1,22 @@
-haha
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: indexer-api-component
+  description: Indexer api component of persistor
+  tags:
+    - golang
+  annotations: 
+    backstage.io/techdocs-ref: url:https://github.com/syntio/backstage-docs
+  links:
+    - url: https://syntio.atlassian.net/wiki/spaces/SP/pages/1242923116/Persistor+-+Solution#Core-Persistor
+      title: Documentation
+      icon: docs
+spec:
+  type: service
+  lifecycle: production
+  system: persistor-system
+  owner: Persistor
+  dependsOn:
+  - resource:mongo
+  providesApi:
+  - api:indexer-api
