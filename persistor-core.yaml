@@ -16,5 +16,5 @@ spec:
   lifecycle: production
   system: persistor-system
   owner: Persistor
-  dependsOn:
+  dependencyOf:
   - component:indexer
