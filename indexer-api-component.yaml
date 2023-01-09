@@ -18,5 +18,7 @@ spec:
   owner: Persistor
   dependsOn:
   - resource:mongo
+  dependencyOf:
+  - component:resubmitter
   providesApi:
   - api:indexer-api
